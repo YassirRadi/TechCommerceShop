@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@cart/*": ["src/features/cart/*"],
+      "@checkout/*": ["src/features/checkout/*"],
+      "@products/*": ["src/features/products/*"],
+      "@user/*": ["src/features/user/*"],
+      "@pages/*": ["src/pages/*"],
+      "@ui/*": ["src/ui/*"],
+      "@reducers/*": ["src/reducers/*"],
+      "@store/*": ["src/store/*"]
+    }
+  }
+}

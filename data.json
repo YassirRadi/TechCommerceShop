@@ -1,0 +1,205 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "name": "Accent Chair",
+        "price": 59,
+        "stock": 20,
+        "image": "https://www.course-api.com/images/store/product-1.jpeg",
+        "company": "amazon",
+        "description": "Elegant and comfortable, this accent chair from Amazon adds a touch of sophistication to any room. Perfect for your office space.",
+        "category": "office"
+      },
+      {
+        "id": "2",
+        "name": "Albany Sectional",
+        "price": 10,
+        "stock": 25,
+        "image": "https://www.course-api.com/images/store/product-2.jpeg",
+        "company": "liddy",
+        "description": "The Albany Sectional by Liddy combines modern design with cozy comfort, making it an ideal addition to your living room.",
+        "category": "living room"
+      },
+      {
+        "id": "3",
+        "name": "Armchair",
+        "price": 80,
+        "stock": 10,
+        "image": "https://www.course-api.com/images/store/product-4.jpeg",
+        "company": "marcos",
+        "description": "Sink into luxury with our stylish Armchair from Marcos. Crafted for the bedroom, it's the perfect spot to unwind with a good book.",
+        "category": "bedroom"
+      },
+      {
+        "id": "4",
+        "name": "Emperor Bed",
+        "price": 29,
+        "stock": 4,
+        "image": "https://www.course-api.com/images/store/product-6.jpeg",
+        "company": "ikea",
+        "description": "Sleep like royalty in the Emperor Bed from IKEA. With a sleek design, it brings a touch of class to your bedroom.",
+        "category": "bedroom"
+      },
+      {
+        "id": "5",
+        "name": "Entertainment Center",
+        "price": 59,
+        "stock": 8,
+        "image": "https://www.course-api.com/images/store/product-7.jpeg",
+        "company": "caressa",
+        "description": "Caressa's Entertainment Center offers a blend of functionality and style, making it a great fit for your living room.",
+        "category": "living room"
+      },
+      {
+        "id": "6",
+        "name": "High-Back Bench",
+        "price": 399,
+        "stock": 50,
+        "image": "https://www.course-api.com/images/store/product-8.jpeg",
+        "company": "ikea",
+        "description": "Elevate your office space with the High-Back Bench from IKEA. Comfort meets contemporary design in this must-have piece.",
+        "category": "office"
+      },
+      {
+        "id": "7",
+        "name": "Leather Sofa",
+        "price": 99,
+        "stock": 12,
+        "image": "https://www.course-api.com/images/store/product-10.jpeg",
+        "company": "caressa",
+        "description": "Caressa presents the Leather Sofa, a timeless addition to your office. Sink into luxury and enjoy unmatched comfort.",
+        "category": "office"
+      },
+      {
+        "id": "8",
+        "name": "Modern Bookshelf",
+        "price": 31,
+        "stock": 12,
+        "image": "https://www.course-api.com/images/store/product-11.jpeg",
+        "company": "caressa",
+        "description": "Create a playful and organized space for your kids with the Modern Bookshelf from Caressa. Practical and stylish.",
+        "category": "kids"
+      },
+      {
+        "id": "9",
+        "name": "Simple Chair",
+        "price": 19,
+        "stock": 32,
+        "image": "https://www.course-api.com/images/store/product-14.jpeg",
+        "company": "liddy",
+        "description": "Liddy's Simple Chair brings a touch of minimalism to your living room. Comfortable and versatile, it's a perfect addition.",
+        "category": "living room"
+      },
+      {
+        "id": "10",
+        "name": "Sofa Set",
+        "price": 150,
+        "stock": 42,
+        "image": "https://www.course-api.com/images/store/product-15.jpeg",
+        "company": "marcos",
+        "description": "Marcos presents the luxurious Sofa Set for your living room. Create a cozy and inviting atmosphere for family and friends.",
+        "category": "living room"
+      },
+      {
+        "id": "11",
+        "name": "Suede Armchair",
+        "price": 165,
+        "stock": 18,
+        "image": "https://www.course-api.com/images/store/product-16.jpeg",
+        "company": "caressa",
+        "description": "Upgrade your office with the Suede Armchair from Caressa. Stylish and comfortable, it's perfect for long work hours.",
+        "category": "office"
+      },
+      {
+        "id": "12",
+        "name": "Utopia Sofa",
+        "price": 79.5,
+        "stock": 17,
+        "image": "https://www.course-api.com/images/store/product-17.jpeg",
+        "company": "liddy",
+        "description": "Liddy's Utopia Sofa combines affordability with style for your living room. Embrace comfort without compromising on design.",
+        "category": "living room"
+      },
+      {
+        "id": "13",
+        "name": "Wooden Bed",
+        "price": 25.5,
+        "stock": 15,
+        "image": "https://www.course-api.com/images/store/product-19.jpeg",
+        "company": "ikea",
+        "description": "Transform your bedroom with the Wooden Bed from IKEA. A classic choice, offering both durability and aesthetic appeal.",
+        "category": "bedroom"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "username": "john_doe",
+        "email": "john.doe@example.com",
+        "password": "hashed_password"
+      },
+      {
+        "id": 2,
+        "username": "jane_smith",
+        "email": "jane.smith@example.com",
+        "password": "hashed_password"
+      }
+    ],
+    "carts": [
+      {
+        "user_id": 1,
+        "items": [
+          {
+            "product_id": 1,
+            "quantity": 2
+          },
+          {
+            "product_id": 3,
+            "quantity": 1
+          }
+        ],
+        "total": 1179.97
+      },
+      {
+        "user_id": 2,
+        "items": [
+          {
+            "product_id": 2,
+            "quantity": 1
+          }
+        ],
+        "total": 499.99
+      }
+    ],
+    "orders": [
+      {
+        "id": 1,
+        "user_id": 1,
+        "products": [
+          {
+            "product_id": 1,
+            "quantity": 2
+          },
+          {
+            "product_id": 3,
+            "quantity": 1
+          }
+        ],
+        "total": 1179.97,
+        "order_date": "2023-01-15T08:30:00Z"
+      },
+      {
+        "id": 2,
+        "user_id": 2,
+        "products": [
+          {
+            "product_id": 2,
+            "quantity": 1
+          }
+        ],
+        "total": 499.99,
+        "order_date": "2023-02-01T12:15:00Z"
+      }
+    ]
+  }
+  
